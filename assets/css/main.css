@@ -628,6 +628,10 @@ section,
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
+#stats{
+  display: none;
+}
+
 .stats i {
   background-color: var(--accent-color);
   color: var(--contrast-color);
@@ -864,6 +868,10 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+#services{
+  display: none;
+}
+
 .services .service-item {
   background-color: var(--surface-color);
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
