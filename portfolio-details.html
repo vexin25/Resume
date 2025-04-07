@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - MyResume Bootstrap Template</title>
+  <title>Project：PAMA</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -48,8 +48,8 @@
         <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+        <!-- <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li> -->
+        <!-- <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li> -->
       </ul>
     </nav>
 
@@ -63,10 +63,10 @@
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio Details</li>
+            <li class="current">PAMA</li>
           </ol>
         </nav>
-        <h1>Portfolio Details</h1>
+        <h1>PAMA</h1>
       </div>
     </div><!-- End Page Title -->
 
@@ -96,16 +96,17 @@
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-
+                        <div class="swiper-slide">
+              <img src="assets/img/portfolio/PAMA_UI_3.png" alt="">
+            </div>
             <div class="swiper-slide">
               <img src="assets/img/portfolio/PAMA_UI_1.png" alt="">
             </div>
-
             <div class="swiper-slide">
               <img src="assets/img/portfolio/PAMA_UI_2.png" alt="">
             </div>
-
           </div>
+
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
           <div class="swiper-pagination"></div>
@@ -115,47 +116,52 @@
 
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-              <h2>This is an example of portfolio details</h2>
+              <h2>Personal AI Meeting Assistant</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                Online conference popularity has increased significantly after the COVID-19 pandemic. However, poor meeting efficiency remains a common issue. This study conducted a survey targeting individuals aged 17-30. Among 188 valid questionnaires, over 80% respondents are willing to use conference assisting software to improve meeting efficiency. To tackle this phenomenon, this project proposes developing conference assisting software incorporating natural language processing and deep learning techniques.
               </p>
               <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
+                This system can analyze real-time dialogue during meetings, generate keywords to facilitate discussion. Meanwhile, by retrieving relevant literature records based on identified keywords, it can provide inspiration to enhance the diversity and innovativeness of discussion content, hence improving overall conference efficiency and quality. For development methodology, the Scrum agile framework will be adopted to shorten the development cycle.
               </p>
-
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <div>
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                </div>
-              </div>
-
               <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
+                This system is expected to not only enhance conference quality, but also increase user engagement and creativity, generating a virtuous cycle and increasing commercialization value.
               </p>
-
-              <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
-              </p>
-
             </div>
+            
+            <div>
+              <ul>
+                <li>Use <strong>Flask</strong> as the framework and <strong>Flask-SocketIO</strong> to establish a conference room connection.</li>
+                <li>Adjust <strong>Microsoft Azure</strong> model parameters to customize a dedicated speech-to-text model, and use OpenAI GPT-3.5 Turbo for natural language processing and text generation.</li>
+                <li>Apply <strong>Gensim/Jieba</strong> to extract keyword information from the meeting content.</li>
+                <li>Use <strong>D3.js</strong> to visualize keywords and create dynamic, interactive data infographics.</li>
+              </ul>
+            </div>
+
+            <div class="portfolio-keywords">
+              <div><a href="">#Assisting System</a></div>
+              <div><a href="">#Natural Language Processing</a></div>
+              <div><a href="">#Keywords</a></div>
+              <div><a href="">#Improving Conference Efficiency</a></div>
+              <div><a href="">#Inspiration</a></div>
+            </div>
+
           </div>
 
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong> Web design</li>
-                <li><strong>Client</strong> ASU Company</li>
-                <li><strong>Project date</strong> 01 March, 2020</li>
-                <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
-                <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
+                <li><strong>Category</strong>Project</li>
+                <li><strong>Project date</strong> 15 Dec, 2023</li>
+                <li><strong>Member</strong>郭楨君、黃萱妮、劉鈺祥、洪唯瑄、呂育真、許立欣、王昱嵐、張桐慶</li>
+                <li><strong>Awards</strong>International ICT Innovative Services Awards 2023
+                  <ol>
+                    <li>Infromation Practice, First place</li>
+                    <li>Titansoft Agile, Outstanding works</li>
+                  </ol>
+                </li>
+                <!-- <li><strong>Project URL</strong> <a href="#">www.example.com</a></li> -->
+                <!-- <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li> -->
               </ul>
             </div>
           </div>
@@ -170,26 +176,11 @@
 
   <footer id="footer" class="footer position-relative light-background">
     <div class="container">
-      <h3 class="sitename">Brandon Johnson</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <h3 class="sitename">Li-Hsin Hsu</h3>
+      <!-- <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p> -->
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
         <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-skype"></i></a>
         <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Alex Smith</strong> <span>All Rights Reserved</span>
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distribuited by <a href="https://themewagon.com">ThemeWagon</a>
-        </div>
       </div>
     </div>
   </footer>

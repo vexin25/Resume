@@ -1244,10 +1244,17 @@ section,
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li {
+.portfolio-details .portfolio-info > ul > li {
   display: flex;
   flex-direction: column;
   padding-bottom: 15px;
+}
+
+.portfolio-details .portfolio-info ol li{
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  color: #45505b;
 }
 
 .portfolio-details .portfolio-info ul strong {
@@ -1333,6 +1340,15 @@ section,
   margin: 0 0 15px 0 0 0;
   padding: 0;
 }
+
+.portfolio-details .portfolio-keywords{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-details .portfolio-keywords div a{
+  margin: 10px;
+} 
 
 /*--------------------------------------------------------------
 # Service Details Section
